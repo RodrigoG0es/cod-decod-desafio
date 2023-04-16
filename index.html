@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e Codificador - Desafio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo/mobile.css">
+</head>
+<body>
+     <main class="main container">
+         <header class="cabecalho">
+           <img src="Logo.svg" alt="logo">
+           <h1>Mensagens Codificadas</h1>
+         </header>
+         <div class="container-input">
+         <div class="input">
+            <textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+            <p><img src="bi_exclamation-circle-fill.svg">Apenas letras maiusculas e sem acento!</p>
+        </div>
+
+
+         <div id="output">
+            <img src="imagem.svg" alt="logo" height="330px" width="400px">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+         </div>
+        </div>
+
+        
+         <div class="buttons">
+             <div class="container-bnt">
+                <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+             </div>
+            
+         </div>
+     </main>
+
+     <footer class="rodape">
+        <h3>Desenvolvido por Rodrigo Goes</h3>
+     </footer>
+
+     <script src="index.js" ></script>
+</body>
+</html>
